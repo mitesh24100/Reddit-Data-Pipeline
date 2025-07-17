@@ -1,0 +1,205 @@
+id,title,score,num_comments,author,created_utc,url,upvote_ratio,over_18,edited,spoiler,stickied,selftext
+1m2f6w1,"do companies like ""Astronomer"" even have real customers",171,140,rsvp4mybday,2025-07-17 18:24:29,https://www.reddit.com/r/dataengineering/comments/1m2f6w1/do_companies_like_astronomer_even_have_real/,0,False,False,False,False,"incase you have not been on reddit today, CEO of astronomer [https://www.astronomer.io](https://www.astronomer.io) got caught cheating at Coldplay concert, this lead me to their website, I have been in the industry for many many years, but their site just looks like buzzwords.
+
+I don't doubt they are a real company with real funding, but do they have real customers? They have a big team, mostly senior execs, which makes me think the company is just a front to raise a lot of money then pivot or go public IDK, I just doubt all these execs in their 50s+ even know what Apache Airflow is.
+
+edit: by real customers I mean organic ones, not ones they got through connections. "
+1m1u7u5,Multi-repo vs Monorepo Architechture: Which do you use?,39,46,OkArmy5383,2025-07-17 01:10:06,https://www.reddit.com/r/dataengineering/comments/1m1u7u5/multirepo_vs_monorepo_architechture_which_do_you/,0,False,False,False,False,"For those of you managing large-scale projects (think thousands of Databricks pipelines about the same topic/domain and several devs), do you keep everything in a single monorepo or split it across multiple Git repositories? What factors drove your choice, and what have been the biggest pros/cons so far?"
+1m2caev,Is anyone already using SQLMesh in production? Any features you are missing from dbt?,19,2,OldSplit4942,2025-07-17 16:34:29,https://www.reddit.com/r/dataengineering/comments/1m2caev/is_anyone_already_using_sqlmesh_in_production_any/,0,False,False,False,False,"I've been testing out SQLMesh over the past week, and I'm wondering what people think about it? I haven't used dbt in the past, which makes it double difficult since the most content out there is for dbt. 
+
+There are also some things that make me doubt using it mainly because of the inflexibility it offers regarding the materialisation through views (no ability to choose like in dbt, lack of possibility of using multiple data sources, and seemingly now way of doing reverse etl."
+1m2f96f,What project are you currently working on at your company?,17,51,madam_zeroni,2025-07-17 18:26:52,https://www.reddit.com/r/dataengineering/comments/1m2f96f/what_project_are_you_currently_working_on_at_your/,0,False,False,False,False,"I’m curious what kind of projects real employers ask their data engineers to work on. I’m starting a position soon and don’t really know what to expect 
+
+Edit: I was hoping to know what kinds of data people are working with, what transformations they're doing and for what purpose. I understand that the gist is ""Move data from A to B"""
+1m1yt2n,Churning out data pipelines as a DA,8,7,MurphinHD,2025-07-17 05:03:30,https://www.reddit.com/r/dataengineering/comments/1m1yt2n/churning_out_data_pipelines_as_a_da/,0,False,False,False,False,"I currently work for a small(ish) company, under 1,000 employees. I’m titled as a Data Analyst. But for the past 3 years, I’ve been building end-to-end data solutions. That includes:
+	•	Meeting with stakeholders to understand data needs
+	•	Figuring out where the data lives (SQL Server, APIs, etc.)
+	•	Building pipelines primarily in Azure Data Factory
+	•	Writing transformation logic in SQL and Python
+	•	Deploying jobs via Azure Functions
+	•	Delivering final outputs in Power BI
+
+I work closely with software engineers and have learned a ton from them, but I’m still underpaid and stuck with the “analyst” label.
+
+What’s working against me:
+	1.	My title is still Data Analyst
+	2.	My bachelor’s degree is non-technical (though I’m halfway through a Master’s in Data Science)
+	3.	My experience is all Azure (no AWS/GCP exposure yet)
+
+I’ve seen all the posts here about how brutal the DE market is, but also others saying companies can’t find qualified engineers. So… how do I parlay this experience into a real data engineer role?
+
+I love building pipelines and data systems. The analyst side has become monotonous and unchallenging. I just want to keep leveling up as a DE. How do I best position myself?"
+1m23rzb,Transition to DE,7,9,Dogeitfly,2025-07-17 10:15:41,https://www.reddit.com/r/dataengineering/comments/1m23rzb/transition_to_de/,0,False,False,False,False,"Hi All
+
+Context: 
+I have been a business intelligence analyst for the past 5 years. Company works with high sensitivity data and is very slow to adopt new technology due to hesitance to change. Company has a bespoke software suite and doesn’t hold user data. All data handled is internal and mostly comprised of gathering data from our applications (metrics, logs etc). 
+
+I am looking to progress to DE as my skill set (I would say) is more suited to DE and I see this as a suitable next step. 
+
+The issues I face is the modern data stack feels very hard to gain experience in unless you are already in a role that gives exposure to these skills. As I work in a company who is reluctant to adopt new practices, and resistant to suggestions I feel a bit stuck on how to pivot. I am mid thirties with a mortgage and outgoings so an internship is not an option I can take. 
+
+My current role requires me gather data (mostly) from sources that may not already exist, mostly through scripting, storing the data in our on premise  SQL servers and then provide dashboards or applications (usually excel vba). I would say that my experience in these areas is expert level, although they do not lever any of the modern skills I see required in most job specs. I work with extremely messy data and in most cases it is a challenge to create clean analysis from this, which is why I find myself spending more time gathering the data than actually providing the end user with analysis.
+
+Can anybody provide suggestions on some specific things I can focus on portfolio wise that would help me move into DE. The issue I find is that I can state that I have done this or that in my portfolio although I am unable to quantify how I’ve done this or that with this tool at work to achieve this or that result. 
+
+I have spent a lot of my own time upskilling (DE zoom camp, some other udemy courses like dbt, aws courses) and doing projects of my own, although I’m struggling to convert this into actual work experience with modern tools. 
+
+Can anybody give advice, ideally from a recruiter perspective, how I can efficiently spend my time on tailoring my portfolio and cv to make that move successful. Also - will certs help? And if so, which particularly? I feel like AWS could benefit, although I’m yet to certify. 
+"
+1m1qxws,Lakehouse vs. Warehouse in AWS,8,17,fabuloussir,2025-07-16 22:42:25,https://www.reddit.com/r/dataengineering/comments/1m1qxws/lakehouse_vs_warehouse_in_aws/,0,False,False,False,False,"I apologize in advance for my lack of expertise. I'm the sole data analyst at a small company. We explore most of our data via our source systems, and do not have a database. My ingestion experience consists of exporting CSVs from our source systems to SharePoint, then connecting to Power BI and transforming there. I got buy-in from management for a centralized data solution in AWS. We reached out to a couple of engineering teams and received two proposals. The first one proceeds with our original intent of building a warehouse in Redshift, while the second one aims for lakehouse architecture using S3/Athena/Iceberg/Glue. I had not even heard of a lakehouse before starting this project.  
+
+We record our work across multiple cloud software and need to merge them into a single source of truth. We also need to store historical snapshots of our data, which we are not able to do currently. While structured, this internal data is not large. We do not generate even 1GB of data annually. I understand that such a data size is laughable for considering a managed warehouse. However, we plan on ingesting JSON files spanning hundreds of gigs every month. While I am sure that we will not need most of the data in those files, I still want to keep them in their original format just in case. Since I have been unable to peek inside these files, I will be exploring this data for the first time. I feel that the production data will only be a few gigs. We are also reconfiguring our Jira projects, so I worry that field deletions and schema changes would convolute a warehouse implementation.  
+
+While I would like to build this myself, I have no coding experience and we work with healthcare data so we would need security expertise as well. Thousands of dollars per month is out of the question at the moment, so I am looking for a cost-effective and scalable solution. I just wonder if Redshift or S3 + Athena is that solution. Oh, and we would hire an engineer to manage this solution.  
+
+Thanks in advance for your time!"
+1m276g0,two pages cv for solo consultant?,6,10,BigMickDo,2025-07-17 13:11:54,https://www.reddit.com/r/dataengineering/comments/1m276g0/two_pages_cv_for_solo_consultant/,0,False,False,False,False,"Target: US clients
+
+title, basically looking for staff augmentation roles, feel 1 page is too crowded given how many different notable projects I have.
+
+I think I can gain a bit of white space and less crowded look by adding project examples in second page and moving education and training to the end"
+1m295tm,How important is the company brand on my profile in the future?,7,3,anxietymeetsart,2025-07-17 14:34:06,https://www.reddit.com/r/dataengineering/comments/1m295tm/how_important_is_the_company_brand_on_my_profile/,0,False,False,False,False,"I just got offered a strong DE role in an insurance company with terrible ratings. Glassdoor reviews suggest that the people in the company are supportive, but they are terrible to their customers(dept, unrelated to engg ofc). Everything else from the tech stack, to pay and remote flexibility about the role are very appealing and a good fit. 
+
+It's too early to think about all this, before hiring actually goes through but in the future is it okay to have such a company name on my profile? Or it's irrelevant as long it's good work? 
+
+In simple words, how much stress should I give to the image of the company itself against the role?"
+1m23i3m,Bytebase 3.8.1 released -- Database DevSecOps for MySQL/PG/MSSQL/Oracle/Snowflake/Clickhouse,5,0,Adela_freedom,2025-07-17 09:59:15,https://docs.bytebase.com/changelog/bytebase-3-8-1,0,False,False,False,False,
+1m2j3st,Is there a need for a local-first data lake platform?,5,5,SnooDogs4383,2025-07-17 20:55:55,https://www.reddit.com/r/dataengineering/comments/1m2j3st/is_there_a_need_for_a_localfirst_data_lake/,1,False,False,False,False,"Hey folks, I recently joined a consultancy where we manage data solutions for clients. My team primarily works on Databricks, and I was really impressed at first with Delta Live Tables (now called Lakeflow Declarative Pipeline) and Photon. It felt super intuitive, until I saw the $200 bill just from me testing it out. That was kinda absurd.
+
+Around the same time, I was optimizing a server for another team and stumbled onto DuckDB. I got pulled into a DuckDB rabbit hole. I loved how portable it is, and the idea of single-node compute vs. distributed jobs like Spark made a lot of sense. From what the DuckDB team claims, it can outperform Spark for datasets under \~5TB, which covers most of what we do.
+
+That got me thinking: Why not build a data platform where DuckDB is the compute engine, with the option to later switch to Spark (or something else) via an adaptor?
+
+Here’s the rough idea:
+
+1. Everything should work locally—compute and storage.
+2. Add adaptors to connect to any external data source or platform.
+3. Include tools that help design and stress-test data models (seriously, why do most platforms not have this built-in?).  
+
+I also saw that DuckDB Foundation released a new data lake standard that seems like a cleaner way to structure metadata compared to loose files on S3.
+
+Meanwhile:
+
+* Databricks just announced **Lakeflow Connect** to integrate with lots of SaaS platforms.  
+* MotherDuck is about to announce **Estuary**, which sounds like it’ll offer similar functionality.  
+* DuckLake (MotherDuck’s implementation of the lake standard) looks promising too.  
+
+So here’s my actual question:  
+**Is there room or real need for a local-first data lake platform?** One that starts local for speed, cost, and simplicity—but can scale to the cloud later?
+
+I know it sounds like a niche idea. But a lot of small businesses generate a fair amount of data and don’t have the tools or people to set up a proper warehouse. Maybe starting local-first makes it easier for developers to play around without worrying about getting billed every time they test something?
+
+Curious to hear your thoughts. Is this just me dev dreaming, or something worth building?"
+1m2dwuj,"Tasked with migration to Open Table Formats at company, seeking for guidance",2,2,clintceasewood,2025-07-17 17:36:03,https://www.reddit.com/r/dataengineering/comments/1m2dwuj/tasked_with_migration_to_open_table_formats_at/,0,False,False,False,False,"I have been tasked to build a project plan laying out the requirements, timeline, resources, budgeting, etc. for implementing Open Table Formats at our company, no one knows that this means and how to go about it, except some engineering teams.
+
+I am reaching out to see if anyone of you has any experience implementing or leading this sort of project at a company level. Would be great to chat."
+1m21s3f,"Windsor.ai reviews – thinking of buying, want to hear from real users first",4,0,Typical_Rest_8422,2025-07-17 08:07:38,https://www.reddit.com/r/dataengineering/comments/1m21s3f/windsorai_reviews_thinking_of_buying_want_to_hear/,0,False,False,False,False,"Hi there,   
+  
+We’re considering windsor.ai to pipe ad and CRM data (Google Ads, Facebook Ads, HubSpot) into BigQuery. Came across them while comparing ELT tools, but faced some mixed reviews — including billing complaints.   
+  
+At the same time, their pricing is much lower than rivals', especially for BigQuery, which sounds great... if it actually works well.   
+  
+So before moving forward, I wanted to know — Is anyone here actively using Windsor?
+
+* How stable is the connection to BigQuery?
+
+* Any gotchas — billing traps, broken pipelines, flaky support?
+
+* Would you recommend it over Fivetran, Supermetrics, etc.?
+
+Want to hear real user feedback before purchasing. Thanks!"
+1m2af8l,Storing historical data for analysis,3,5,tech-man-ua,2025-07-17 15:22:44,https://www.reddit.com/r/dataengineering/comments/1m2af8l/storing_historical_data_for_analysis/,0,False,False,False,False,"I have a requirement to store, let's say important financial data that can be queried given a specific point in time.
+
+Some of the domain entities (tables) have only a subset of fields that need to be recorded as point-in-time, so we are not necessarily recording the whole table(s).
+
+Current idea is to have a ""master"" table with static properties and ""periodic"" table that has point-in-time properties, joined together.
+
+Can anybody give an idea on how is it really done nowadays?
+
+Ideally it should not overcomplicate the design or querying logic and be as quick as possible."
+1m285qe,Processing large volume of records through Open AI gpt 4o endpoints,3,4,Significant-Rope-973,2025-07-17 13:53:59,https://www.reddit.com/r/dataengineering/comments/1m285qe/processing_large_volume_of_records_through_open/,0,False,False,False,False,"I’m trying to process around 60k records (600 input tokens/~100 output tokens per record) through to the gpt 4o model. I’m currently using a spark notebook to process them. Anyone experience any issues getting the script to efficiently process this many records (which I feel isn’t even that much) in a reasonable amount of time?  My scripts currently run for upwards of 8 hours and eventually stall out. For those who are successful, would love to hear what you are doing. "
+1m27hzi,Cyberduck issue or HDFS issue?,3,0,riskymouse,2025-07-17 13:26:05,https://www.reddit.com/r/dataengineering/comments/1m27hzi/cyberduck_issue_or_hdfs_issue/,0,False,False,False,False,"I encountered an unpleasantness in Cyberduck when accessing HDFS, and want to determine whether to blame Cyberduck or HDFS.  
+There is a folder, let's call it 'target', with some files in it. I had files in another folder that I wanted to drag into it, and wanted to move the existing files from 'target' to 'temp'.  
+On multiple occasions, this worked fine when first dragging the new files to 'target' and then moving the old files to 'temp'. I.e. 'target' was not empty at any point of time.  
+However, yesterday, I first moved the old files away from 'target' so that it was empty.  
+This caused the folder icon in Cyberduck to disappear, whereas the grey rectangle for 'target' remained.  
+I could then not drag files to 'target', because, no folder.  
+I could also not create a folder 'target'.  
+Luckily, what worked, was to rename my source folder to 'target'.  
+In between, fearing corrupted UI state of Cyberduck, I quit it, but upon restarting the picture was the same.  
+At work we couldn't agree whether Cyberduck or HDFS is causing the issue."
+1m21s7f,How do I integrate an MWAA with a dbt repo?,3,3,Embarrassed-Will-503,2025-07-17 08:07:51,https://www.reddit.com/r/dataengineering/comments/1m21s7f/how_do_i_integrate_an_mwaa_with_a_dbt_repo/,0,False,False,False,False,"
+
+I have been looking for ways to integrate a dbt repo orchestration with MWAA. While I could find ones where I could run airflow locally, I am unable to find the ones where you could integrate the dbt repo with an MWAA instance to run the DAGs via MWAA."
+1m1uy7i,Productionizing Dead Letter Queues in PySpark Streaming Pipelines – Part 2 (Medium Article),1,4,Santhu_477,2025-07-17 01:45:04,https://www.reddit.com/r/dataengineering/comments/1m1uy7i/productionizing_dead_letter_queues_in_pyspark/,0,False,False,False,False,"Hey folks 👋
+
+I just published Part 2 of my Medium series on handling bad records in PySpark streaming pipelines using Dead Letter Queues (DLQs).  
+In this follow-up, I dive deeper into production-grade patterns like:
+
+* Schema-agnostic DLQ storage
+* Reprocessing strategies with retry logic
+* Observability, tagging, and metrics
+* Partitioning, TTL, and DLQ governance best practices
+
+This post is aimed at fellow data engineers building real-time or near-real-time streaming pipelines on Spark/Delta Lake. Would love your thoughts, feedback, or tips on what’s worked for you in production!
+
+🔗 Read it here:  
+[Here](https://medium.com/@santhoshkumarv/productionizing-dead-letter-queues-in-pyspark-streaming-pipelines-part-2-fd228fb99fe5)
+
+Also linking [Part 1 here](https://medium.com/@santhoshkumarv/handling-bad-records-in-streaming-pipelines-using-dead-letter-queues-in-pyspark-265e7a55eb29) in case you missed it."
+1m2jr1r,Airflow + dbt + DuckDB on ECS — tasks randomly fail but work fine locally,4,2,SomewhereStandard888,2025-07-17 21:21:08,https://www.reddit.com/r/dataengineering/comments/1m2jr1r/airflow_dbt_duckdb_on_ecs_tasks_randomly_fail_but/,0,False,False,False,False,"I’m working on an Airflow project where I run ETL tasks using dbt and DuckDB. Everything was running smoothly on my local machine, but since deploying to AWS ECS (Fargate), I’ve been running into strange issues.
+
+Some tasks randomly fail, but when I clear and rerun them manually, they eventually succeed after a few retries. There’s no clear pattern — sometimes they work on the first try, other times I have to clear them multiple times before they go through.
+
+Setup details:
+
+* Airflow scheduler and webserver run on ECS (Fargate)
+* The DuckDB database is stored on EFS, shared between scheduler and webserver
+* Airflow logs are also stored on EFS.
+* Locally everything works fine with no failures
+
+Logs aren’t super helpful — occasionally I see timeouts like:
+
+    pgsqlCopierModifierip-192-168-19-xxx.eu-central-1.compute.internal
+    *** Could not read served logs: timed out
+    
+
+I suspect it’s related to ECS resource limits, EFS performance, but I’m not sure how to confirm it.
+
+Has anyone experienced similar problems with this setup? Would moving logs to S3 or increasing task CPU/memory help? Any tips would be appreciated."
+1m2jeww,Looking to start preparation for staff level engineering interviews at FAANG companies. Need some guidance if there are good resources I could find for the preparation,1,2,educationruinedme1,2025-07-17 21:07:52,https://www.reddit.com/r/dataengineering/comments/1m2jeww/looking_to_start_preparation_for_staff_level/,0,False,False,False,False,Any help is appreciated for the resources
+1m293jc,Building a Self-Bootstrapping Coding Agent in Python,2,0,PsiACE,2025-07-17 14:31:34,https://psiace.me/posts/baby-step-coding-agent/,0,False,False,False,False,"Bub’s first milestone: automatically fixing type annotations. Powered by Moonshot K2
+
+>"
+1m20hlw,Career switch from biotech to DE,2,8,ParticularEffect8460,2025-07-17 06:43:48,https://www.reddit.com/r/dataengineering/comments/1m20hlw/career_switch_from_biotech_to_de/,0,False,False,False,False,"Hi guys,
+
+I am a wet lab biologist with 13 YoE in academic and industrial settings, in different countries. For the last 3 years I have been working in Cell therapy and have a decent background in molecular and cell biology. I have two masters, one in biotechnology and one in cell and molecular biology (I was on PhD track but had to drop out). I planned to stay in biotech industry and grow the ladder even though I understood that without PhD I might hit the ceiling. 
+
+However, for the last 3 years I changed 3 companies, 3 massive layoffs. Although I was able to land a new job quickly after first two layoffs, I am much less hopeful this time. Therefore, I am thinking to switch my career (one option) to DE and wanted to ask your help and advice. I have very limited experience with coding (only making graphs and figures using R) but willing to work hard and learn. How good/bad is market in this field? How easy to get into entry level positions? How fast is the career growth? How is the salary ranges?
+
+Thank you so much for all your help!
+
+"
+1m2kru2,Where do you make your ERDs?,2,5,ricki246,2025-07-17 22:02:52,https://www.reddit.com/r/dataengineering/comments/1m2kru2/where_do_you_make_your_erds/,1,False,False,False,False,"Looking to rework some of the data models and was going to create some ERD diagrams, any recommendations for tools?"
+1m2jpnl,Has anyone used Incorta?,1,0,IndependentTrouble62,2025-07-17 21:19:39,https://www.reddit.com/r/dataengineering/comments/1m2jpnl/has_anyone_used_incorta/,1,False,False,False,False,"Does anyone in this sub have any experience with the Incorta tool? I am just looking for general feedback like How do you like it?, value proposition, ease of maintenance, etc. I have a client who wants to implement it over a simpler classical EDW environment. I personally have a dim view of these it will do everything tools. "
+1m2i9pd,Data exploration and cleaning framework,1,2,CalendarExotic6812,2025-07-17 20:23:15,https://www.reddit.com/r/dataengineering/comments/1m2i9pd/data_exploration_and_cleaning_framework/,0,False,False,False,False,Still pretty new to data engineering. Landed a big job with loads of databases and tables from all over the place. Wondering if anyone has a strong frame work for data exploration and transformation that has helped them stay organized and task oriented as they went from database and tables in bronze layers to gold standard record sets. Thanks!
+1m2f6a8,Looking for feedback on Bossocoder’s Data Engineering course,1,1,amu_niru,2025-07-17 18:23:50,https://www.reddit.com/r/dataengineering/comments/1m2f6a8/looking_for_feedback_on_bossocoders_data/,0,False,False,False,False,"Hi everyone,
+I'm exploring courses to strengthen my data engineering skills and came across Bossocoder’s program. Has anyone here taken it? Would love to know about the learning experience, projects, and job outcomes (if any).
+
+Any insights or comparisons with other courses like DataTalksClub would be really helpful. Thanks!"
+1m2j7kb,TidyChef – extract data via visual modelling,0,0,Mikelovesbooks,2025-07-17 21:00:01,https://www.reddit.com/r/dataengineering/comments/1m2j7kb/tidychef_extract_data_via_visual_modelling/,0,False,False,False,False,"Hey folks, anyone else deal with tables that look fine to a human but are a nightmare for machines?
+
+It’s something I used to do for a living with the UK government, so I made TidyChef to make it a lot easier. It builds on some core ideas they’ve used for years. TidyChef lets you model the visual layout—how headers and data cells relate spatially—so you can pull out tidy, usable data without fighting weird structure.
+
+Here’s a super simple example to get the idea across:
+
+📷 Three-stage transformation example -https://raw.githubusercontent.com/mikeAdamss/tidychef/9230a4088540a49dcbf3ce1f7cf7097e6fcef392/docs/three-stage-pic.png
+
+Check out the repo here if you want to explore: [https://github.com/mikeAdamss/tidychef](https://github.com/mikeAdamss/tidychef)
+
+Would love to hear your thoughts or workflows.
+
+Note for the pandas crowd: This example is intentionally simple, so yes, pandas alone could handle it. But check out the README for the key idea and the docs for more complex visual relationships—the kind of thing pandas doesn’t handle natively."
+1m1uqmg,How to leverage a job with Mechanical engineering background,0,7,Plane_Specialist_634,2025-07-17 01:35:09,https://www.reddit.com/r/dataengineering/comments/1m1uqmg/how_to_leverage_a_job_with_mechanical_engineering/,0,False,False,False,False,"Got a co-op in data engineering as a Mechanical engineer, graduating in less than a year. How can I leverage both fields to find a well paying job? What positions fill this niche? 
+
+I’ve been looking in this sub and the transition between field seems easy, and I saw one post about a niche field, but I’m super interested to know what else there may be for me out there. Willing to hear anyone’s advice, or if anyone has hired someone like me what skills I would need to excel. "
